@@ -1,0 +1,6 @@
+D:\visua\tcpChat\Server\bin\Debug\Server.exe.config
+D:\visua\tcpChat\Server\bin\Debug\Server.exe
+D:\visua\tcpChat\Server\bin\Debug\Server.pdb
+D:\visua\tcpChat\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+D:\visua\tcpChat\Server\obj\Debug\Server.exe
+D:\visua\tcpChat\Server\obj\Debug\Server.pdb

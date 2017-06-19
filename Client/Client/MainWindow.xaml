@@ -14,13 +14,13 @@
                 Margin="80,302,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
-                Content="Вход" />
+                Content="Вход" Click="SignIn_Click" />
         <Button x:Name="Registration"
                 Width="75"
                 Margin="165,302,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
-                Content="Регестрация" />
+                Content="Регестрация" Click="Registration_Click" />
         <TextBox x:Name="Password"
                  Width="146"
                  Height="30"

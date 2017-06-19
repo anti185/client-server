@@ -6,6 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
+
 namespace Client
 {
     /// <summary>
@@ -14,4 +15,5 @@ namespace Client
     public partial class App : Application
     {
     }
+
 }
