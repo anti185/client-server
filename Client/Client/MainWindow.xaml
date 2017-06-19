@@ -2,11 +2,62 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Client"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="MainWindow"
+        Width="327"
+        Height="505"
+        mc:Ignorable="d">
     <Grid>
-        
+        <Button x:Name="SignIn"
+                Width="75"
+                Margin="80,302,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Content="Вход" />
+        <Button x:Name="Registration"
+                Width="75"
+                Margin="165,302,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Content="Регестрация" />
+        <TextBox x:Name="Password"
+                 Width="146"
+                 Height="30"
+                 Margin="115,249,0,0"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Top"
+                 Text="kek"
+                 TextWrapping="Wrap" MaxLines="1" UseLayoutRounding="True" Padding="1,5,1,1" />
+        <TextBox x:Name="Login"
+                 Width="146"
+                 Height="30"
+                 Margin="115,210,0,0"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Top"
+                 Background="#7FFFFFFF"
+                 Foreground="#7FEE2121"
+                 MaxLines="1"
+                 Padding="1,5,1,1"
+                 RenderTransformOrigin="0.497,-0.861"
+                 SelectionBrush="#FF0A246A"
+                 Text="Rustam "
+                 TextOptions.TextFormattingMode="Display"
+                 TextWrapping="Wrap"
+                 UseLayoutRounding="True" />
+        <TextBlock x:Name="TLogin"
+                   Margin="60,217,0,0"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   FontSize="15"
+                   Text="Логин"
+                   TextWrapping="Wrap" />
+        <TextBlock x:Name="TPassword"
+                   Margin="60,257,0,0"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   FontSize="15"
+                   Text="Пароль"
+                   TextWrapping="Wrap" />
     </Grid>
 </Window>
